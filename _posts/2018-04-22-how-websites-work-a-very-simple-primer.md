@@ -10,9 +10,7 @@ some kind of server like Apache?**", and a variety of other things that
 prompted me to answer from quite basic principles. I'm including it here as
 something I can point at in the future :-)
 
-
 ---
-
 
 Web browsers consume [Hypertext Markup
 Language](https://en.wikipedia.org/wiki/HTML) (HTML) and render it visually
