@@ -5,6 +5,11 @@ title: "Implementing icanhazip #1: Varnish"
 
 # Implementing icanhazip #1: Varnish
 
+**NBNB Most of the links in this post are now broken. They worked as described,
+but for now you'll just have to use your imagination!**
+
+---
+
 The first in an occasional series of articles on how to implement an
 [icanhazip.com](http://icanhazip.com)-style site using different technologies.
 
