@@ -9,7 +9,7 @@ Here's a method to discover what website Bindings (i.e. unique
 `IP:port:HostHeader` tuples for anyone not IIS-conversant) an IIS6 instance has
 configured.
 
-[This script](files/iis-bindings-audit.vbs) takes 1 optional parameter - the
+[This script](/files/iis-bindings-audit.vbs) takes 1 optional parameter - the
 resolvable name of the host you want to audit, defaulting to `localhost`. It
 outputs a colon-seperated record for each unique
 `MachineName:Comment:IISObject-Name:IP:Port:HostHeader` tuple.
