@@ -1,8 +1,7 @@
 ---
 category: outdated-blog-posts
+title: "Scrolling through a file at a readable speed"
 ---
-
-# Scrolling Through A File At A Readable Speed
 
 Sometimes you want to tail or read a file at a speed that you can
 distinguish content, or at which your brain can at least spot anomalies.

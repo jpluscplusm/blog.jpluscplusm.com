@@ -1,9 +1,7 @@
 ---
 category: outdated-blog-posts
-title: "A Horrible Hack To Install An Architecture-Specific Package Set On RHEL/CentOS"
+title: "A horrible hack to install an architecture-specific package set on RHEL/CentOS"
 ---
-
-# A Horrible Hack To Install An Architecture-Specific Package Set On RHEL/CentOS
 
 After a two-month absence, here's a disgusting way to install a set of
 packages on a RHEL/CentOS machine.

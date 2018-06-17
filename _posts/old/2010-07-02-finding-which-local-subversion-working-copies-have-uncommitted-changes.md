@@ -1,8 +1,7 @@
 ---
 category: outdated-blog-posts
+title: "Finding which local subversion working copies have uncommitted changes"
 ---
-
-# Finding Which Local Subversion Working Copies Have Uncommitted Changes
 
 If you're anything like me, you leave a load of Subversion working
 copies around, having checked them out to work on briefly, checked them

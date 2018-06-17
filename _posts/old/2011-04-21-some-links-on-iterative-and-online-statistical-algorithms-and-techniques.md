@@ -1,9 +1,7 @@
 ---
 category: outdated-blog-posts
-title: "Some Links On Iterative / Online Statistical Algorithms and Techniques"
+title: "Some links on iterative / online statistical algorithms and techniques"
 ---
-
-# Some Links On Iterative / Online Statistical Algorithms and Techniques
 
 Some links to inform later bloggage
 

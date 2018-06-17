@@ -1,8 +1,7 @@
 ---
 category: outdated-blog-posts
+title: "Securing Jenkins behind an Nginx reverse proxy"
 ---
-
-# Securing Jenkins behind an nginx reverse proxy
 
 Jenkins comes with an embedded HTTP server, which you can reverse proxy with
 nginx - but what do you need to lock down and where do you need to do it?

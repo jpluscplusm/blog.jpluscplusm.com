@@ -1,8 +1,7 @@
 ---
 category: outdated-blog-posts
+title: "Listing sets of characters"
 ---
-
-# Listing Sets Of Characters
 
 How do you empirically determine a file or stream's alphabet? Here's one
 (inelegant) way to do it:

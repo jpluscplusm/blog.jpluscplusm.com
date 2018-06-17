@@ -3,8 +3,6 @@ category: outdated-blog-posts
 title: "Implementing icanhazip #1: Varnish"
 ---
 
-# Implementing icanhazip #1: Varnish
-
 **NBNB Most of the links in this post are now broken. They worked as described,
 but for now you'll just have to use your imagination!**
 

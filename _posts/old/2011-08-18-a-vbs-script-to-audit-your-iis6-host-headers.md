@@ -1,9 +1,7 @@
 ---
 category: outdated-blog-posts
-title: "A VBS Script To Audit Your IIS(6) Host Headers"
+title: "A VBS script to audit your IIS(6) host headers"
 ---
-
-# A VBS Script To Audit Your IIS(6) Host Headers
 
 Here's a method to discover what website Bindings (i.e. unique
 `IP:port:HostHeader` tuples for anyone not IIS-conversant) an IIS6 instance has

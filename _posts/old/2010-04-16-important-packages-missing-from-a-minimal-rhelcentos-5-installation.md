@@ -1,9 +1,7 @@
 ---
 category: outdated-blog-posts
-title: "Important Packages Missing From A Minimal RHEL/CentOS 5 Installation"
+title: "Important packages missing from a minimal RHEL/CentOS 5 installation"
 ---
-
-# Important Packages Missing From A Minimal RHEL/CentOS 5 Installation
 
 During the installation of a RHEL/CentOS 5.x server, you have the choice
 of installing the "Base" group of packages. This group is described as

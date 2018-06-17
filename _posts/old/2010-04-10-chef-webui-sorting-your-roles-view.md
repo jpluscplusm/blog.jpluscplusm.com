@@ -1,9 +1,7 @@
 ---
 category: outdated-blog-posts
-title: "Chef WebUI: Sorting Your Roles View"
+title: "Chef WebUI: sorting your roles view"
 ---
-
-# Chef WebUI: Sorting Your Roles View
 
 It's not rocket science, but [Antiphase](http://twitter.com/antiphase) just
 clued me in to how easily your Roles view (<http://your.chef.server/roles>) can

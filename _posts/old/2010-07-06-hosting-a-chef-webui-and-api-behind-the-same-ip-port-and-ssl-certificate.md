@@ -1,9 +1,7 @@
 ---
 category: outdated-blog-posts
-title: "Hosting A Chef WebUI and API Behind The Same IP, Port And SSL Certificate"
+title: "Hosting a Chef WebUI and API behind the same IP, port and SSL certificate"
 ---
-
-# Hosting A Chef WebUI and API Behind The Same IP, Port And SSL Certificate
 
 [Miguel Cabeç](http://twitter.com/miguelcabeca) emailed the Chef mailing list
 describing a great method to host a

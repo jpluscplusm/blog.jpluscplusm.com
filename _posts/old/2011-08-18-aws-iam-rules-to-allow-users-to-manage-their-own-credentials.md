@@ -1,9 +1,7 @@
 ---
 category: outdated-blog-posts
-title: "AWS IAM Rules To Allow Users To Manage Their Own Credentials"
+title: "AWS IAM rules to allow users to manage their own credentials"
 ---
-
-# AWS IAM Rules To Allow Users To Manage Their Own Credentials
 
 Amazon's [Identity and Access Management](http://aws.amazon.com/iam/)
 (IAM) not only has a funky acronym relating to what it achieves, it's

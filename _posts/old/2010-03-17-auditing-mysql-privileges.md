@@ -1,9 +1,7 @@
 ---
 category: outdated-blog-posts
-title: "Auditing MySQL Privileges"
+title: "Auditing MySQL privileges"
 ---
-
-# Auditing MySQL Privileges
 
 A quick'n'dirty way of viewing all the privileges that exist on a MySQL
 server is to chain two mysql invocations together like this:
