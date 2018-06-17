@@ -13,6 +13,7 @@ author: "Jonathan Matthews"
 theme: minima
 github_username: jpluscplusm
 twitter_username: jpluscplusm
+google_analytics: UA-120969913-1
 #show_excerpts: true # "true" currently only pulls in the opening paragraph, which is the title :-\
 
 # The directory for category index pages. Change it to something else if
