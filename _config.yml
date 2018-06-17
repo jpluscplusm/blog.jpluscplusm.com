@@ -35,7 +35,10 @@ url: https://blog.jpluscplusm.com
 #markdown: rdiscount
 
 plugins:
-  - jekyll-feed
+- jekyll-feed
+
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: /:year/:month/:day/:title/

@@ -2,8 +2,6 @@
 title: "Goodness me, is that the time?"
 ---
 
-# Goodness me, is that the time?
-
 Well, after an entirely unforced absence of ... *some* years, it's time to get
 this blog going again!
 
