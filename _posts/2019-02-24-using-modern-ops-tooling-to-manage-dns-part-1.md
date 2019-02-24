@@ -46,8 +46,9 @@ A bunch of folks gave me some pointers and opinions:
   DIYing some scripts worked for them
 - [Spencer Krum pointed
   out](https://twitter.com/nibalizer/status/1099349822707040256) something that
-  look perfect, modulo its use of Bind zone files to store the underlying record
-  data
+  looks great: a [tool called tfz53](https://github.com/carlpett/tfz53). It
+  uses Bind zone files to store the underlying record data, which may not be to
+  some people's taste
 - [Aquarion mentioned](https://twitter.com/Aquarion/status/1099442060799758340)
   their DIY Ansible setup to do this
 - [Brian Christie pointed
