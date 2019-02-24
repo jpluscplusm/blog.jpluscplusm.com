@@ -61,4 +61,6 @@ A bunch of folks gave me some pointers and opinions:
   things slightly oddly, but has some good ideas which I might end up stealing!
 
 Over the next couple of weeks I'm going to take a look at the practicalities of
-using each of these. Stay tuned for some more posts in this area ...
+using each of these, along with any other relevant tools that pop up.
+
+Stay tuned for some more posts in this area ...
