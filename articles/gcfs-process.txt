@@ -1,0 +1,25 @@
+WORKTREE=.worktree
+GITDIR=.git
+PLAINTEXT=secure
+
+git init --separate-git-dir="$GITDIR" "$WORKTREE"
+rm "$WORKTREE/.git"
+echo -e "\tworktree = ../${WORKTREE}" >>"$GITDIR/config"
+gocryptfs -init -plaintextnames "$WORKTREE"
+# write down master-key somewhere!
+mv -i "$WORKTREE/gocryptfs.conf" ./.gocryptfs.conf
+
+gcfs_commit_id="$(echo "../$PLAINTEXT" | git hash-object -w --stdin)"
+git tag secure.relative_dir "$gcfs_commit_id"
+
+# git remote add github GITURL
+# git push --tags -u github
+
+gocryptfs -nosyslog -config=./.gocryptfs.conf "$WORKTREE" "$PLAINTEXT"
+echo "gitdir: ../$GITDIR" >"$PLAINTEXT/.git"
+
+
+tt
+
+unset WORKTREE GITDIR PLAINTEXT
+
