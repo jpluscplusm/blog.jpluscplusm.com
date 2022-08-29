@@ -1,0 +1,60 @@
+option "title" "CDD Systems Limited"
+option "operating_currency" "GBP"
+plugin "beancount.plugins.auto_accounts"
+2000-01-01 custom "fava-option" "fiscal-year-end" "10-31"
+
+2017-10-31 * "Sales"
+	Income:Sales         -(1,000 * 12) GBP
+	Assets:Bank           (1,000 * 12) GBP
+2017-10-31 * "Expenses"
+	Expenses:Food         (750 * 12) GBP
+	Expenses:Healthcare   ( 50 * 12) GBP
+	Expenses:Mice         ( 20 * 12) GBP
+	Assets:Bank          -((750+50+20) * 12) GBP
+
+
+2018-10-31 * "Sales"
+	Income:Sales         -(1,000 * 12) GBP
+	Assets:Bank           (1,000 * 12) GBP
+2018-10-31 * "Expenses"
+	Expenses:Food         (750 * 12) GBP
+	Expenses:Healthcare   ( 50 * 12) GBP
+	Expenses:Mice         ( 20 * 12) GBP
+	Assets:Bank          -((750+50+20) * 12) GBP
+
+2019-10-31 * "Sales"
+	Income:Sales         -(1,000 * 12) GBP
+	Assets:Bank           (1,000 * 12) GBP
+2019-10-31 * "Expenses"
+	Expenses:Food         (750 * 12) GBP
+	Expenses:Healthcare   ( 50 * 12) GBP
+	Expenses:Mice         ( 20 * 12) GBP
+	Assets:Bank          -((750+50+20) * 12) GBP
+
+2020-10-31 * "Sales for November - March"
+	Income:Sales         -(1,000 * 5) GBP
+	Assets:Bank           (1,000 * 5) GBP
+2020-10-31 * "Expenses for the whole year"
+	Expenses:Food         (750 * 12) GBP
+	Expenses:Healthcare   ( 50 * 12) GBP
+	Expenses:Mice         ( 20 * 12) GBP
+	Assets:Bank          -((750+50+20) * 12) GBP
+
+2021-10-31 * "Expenses for the whole year"
+	Expenses:Food         (750 * 12) GBP
+	Expenses:Healthcare   ( 50 * 12) GBP
+	Expenses:Mice         ( 20 * 12) GBP
+	Assets:Bank          -((750+50+20) * 12) GBP
+
+2017-12-15 * "HMRC" "Corporation tax"
+	Expenses:CorporationTax   410.40 GBP
+	Assets:Bank              -410.40 GBP
+2019-03-09 * "HMRC" "Corporation tax"
+	Expenses:CorporationTax   410.40 GBP
+	Assets:Bank              -410.40 GBP
+2019-12-15 * "HMRC" "Corporation tax"
+	Expenses:CorporationTax   410.40 GBP
+	Assets:Bank              -410.40 GBP
+2020-12-15 * "HMRC" "Corporation tax refund"
+	Expenses:CorporationTax  -410.40 GBP
+	Assets:Bank               410.40 GBP
